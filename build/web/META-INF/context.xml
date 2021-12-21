@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/EntregaFinalCOM2">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="empresaturismo" password="12345" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/empresaturismo?zeroDateTimeBehavior=convertToNull" username="esc"/>
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="empresaturismo" password="12345" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/empresaturismo?zeroDateTimeBehavior=CONVERT_TO_NULL" username="esc"/>
+</Context>
